@@ -1,0 +1,17 @@
+@import './variables';
+
+.about-container {
+  display: flex;
+
+  img {
+    display: inline-block;
+    height: 370px;
+  }
+
+  .self-description-container {
+    margin: 10px 30px 10px 70px;
+    line-height: 25px;
+    font-family: $titleFont;
+    display: inline-block;
+  }
+}

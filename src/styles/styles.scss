@@ -1,38 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Mansalva|Open+Sans&display=swap');
-
-
-$brandFont: 'Mansalva', cursive;
-$titleFont: 'Open Sans', sans-serif;
-$textColor: #303030;
+@import './variables';
 
 .page-container {
   margin: 5% 25%;
 }
 
-nav {
-  display: flex;
-  align-items: flex-end;
-  font-family: $titleFont;
-  margin: 10px 0;
-
-  .name-brand {
-    display: inline;
-    font-family: $brandFont;
-    font-size: 50px;
-    margin: auto;
-    margin-left: 0;
-  }
-
-  .menu {
-    display: inline;
-    align-self: right;
-    margin: auto;
-    margin-right: 0;
-    a {
-      margin: 10px;
-      color: $textColor;
-      text-decoration: none;
-    }
-  }
+body {
+  padding: 50px;
 }
+
+@import './navbar.scss';
+@import './about.scss';
 

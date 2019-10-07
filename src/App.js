@@ -1,9 +1,11 @@
 import React from 'react';
-import Navbar from './navbar';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Research from './research';
-import Art from './art';
 import './styles/styles.scss';
+import Navbar from './navbar/navbar';
+import Research from './research/research';
+import Art from './art/art';
+import About from './about/about';
+import Footer from './navbar/footer';
 
 
 function App() {
@@ -13,8 +15,14 @@ function App() {
         <header>
           <Navbar />
         </header>
-        <Route exact path="/research" component={ Research } />
-        <Route exact path="/art" component={ Art } />
+        <body>
+          <Route exact path="/" component={ About } />
+          <Route exact path="/research" component={ Research } />
+          <Route exact path="/art" component={ Art } />
+        </body>
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </Router>
   );

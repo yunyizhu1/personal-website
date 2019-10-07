@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const NameBrand = () => (
-  <div className="name-brand">Yunyi Zhu</div>
+  <Link to="/" className="name-brand">Yunyi Zhu</Link>
 );
 
 const Menu = () => (

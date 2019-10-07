@@ -1,0 +1,47 @@
+@import './variables';
+
+nav {
+  display: flex;
+  align-items: flex-end;
+  font-family: $titleFont;
+  padding-bottom: 3px;
+  border-bottom: 1px solid $lineColor;
+
+  .name-brand {
+    color: $textColor;
+    text-decoration: none;
+    display: inline;
+    font-family: $brandFont;
+    font-size: 50px;
+    padding-bottom: 15px;
+    margin: auto;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .menu {
+    display: inline;
+    align-self: right;
+    margin: auto;
+    margin-right: 0;
+    margin-bottom: 0;
+    a {
+      margin: 10px;
+      color: $textColor;
+      text-decoration: none;
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  padding: 20px;
+  border-top: 1px solid $lineColor;
+
+  div {
+    font-size: 14px;
+    font-family: $titleFont;
+    color: $textColor;
+    margin: auto;
+  }
+}
