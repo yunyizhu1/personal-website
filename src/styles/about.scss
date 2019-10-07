@@ -2,6 +2,7 @@
 
 .about-container {
   display: flex;
+  color: $textColor;
 
   img {
     display: inline-block;
@@ -10,8 +11,14 @@
 
   .self-description-container {
     margin: 10px 30px 10px 70px;
-    line-height: 25px;
+    line-height: 27px;
     font-family: $titleFont;
     display: inline-block;
+  }
+
+  a {
+    color: $textColorDark;
+    text-decoration: none;
+    border-bottom: 1px solid $lineColor;
   }
 }
