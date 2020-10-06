@@ -16,9 +16,8 @@ function App() {
           <Navbar />
         </header>
         <body>
-          <Route exact path="/" component={ About } />
-          <Route exact path="/research" component={ Research } />
-          <Route exact path="/art" component={ Art } />
+          <About />
+          <Research />
         </body>
         <footer>
           <Footer />

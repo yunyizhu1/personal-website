@@ -1,13 +1,7 @@
 @import './variables';
-
-.page-container {
-  margin: 5% 25%;
-}
-
-body {
-  padding: 50px;
-}
-
 @import './navbar.scss';
 @import './about.scss';
 
+div.page-container {
+  margin: 0px;
+}
