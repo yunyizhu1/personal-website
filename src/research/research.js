@@ -1,7 +1,19 @@
 import React from 'react';
+import researchProjects from '../data/research_projects.json';
+import ResearchPreview from './research_preview.js';
 
-const Research = () => (
-  <div>This is the research page!</div>
-);
+const Research = () =>
+  (
+    <div className="research-section">
+      <div className="section-title">
+        Publications
+      </div>
+      <div>
+        {researchProjects.map((research) => <ResearchPreview id={research.id} research={research}/>)}
+      </div>
+    </div>
+  );
+
+
 
 export default Research;

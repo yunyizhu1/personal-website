@@ -1,36 +1,37 @@
 @import './variables';
 
 nav {
-  background: black;
+  background: gray;
   display: flex;
   align-items: flex-end;
   font-family: $titleFont;
-  padding-bottom: 3px;
-  border-bottom: 1px solid $lineColor;
+  padding: 10px;
+
 
   .name-brand {
-    color: $textColorDark;
+    color: white;
     text-decoration: none;
     display: inline;
-    font-family: $brandFont;
+    font-weight: 600;
     font-size: 20px;
-    padding-bottom: 13px;
-    margin: auto;
-    margin-left: 0;
-    margin-bottom: 0;
+  }
+
+  a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
   }
 
   .menu {
+    color: white;
     display: inline;
-    align-self: right;
     margin: auto;
     margin-right: 0;
     margin-bottom: 0;
-    a {
-      margin: 10px;
-      color: $textColor;
-      text-decoration: none;
-    }
+  }
+
+  .info {
+    align-self: right;
   }
 }
 
