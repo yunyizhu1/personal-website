@@ -1,4 +1,4 @@
-@import './variables';
+@import 'general';
 @import './navbar.scss';
 @import './about.scss';
 @import './research.scss';
@@ -12,5 +12,5 @@ body {
 }
 
 .body-part {
-  margin: 20px;
+  margin: 60px 20px 20px 20px;
 }

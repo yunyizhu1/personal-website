@@ -2,14 +2,19 @@ import React from 'react';
 
 const Research = ({research}) => (
     <div className="publication_preview">
-      <div className="title">
-        {research.title}
+      <div className="thumbnail">
+        <img src={require("../data/research_thumbnails/" + research.thumbnail) } />
       </div>
-      <div className="author">
-        {research.authors}
-      </div>
-      <div className="conference">
-        in <div>{research.conference}</div>
+      <div className="descriptions">
+        <div className="title">
+          {research.title}
+        </div>
+        <div className="author">
+          {research.authors}
+        </div>
+        <div className="conference">
+          in <div>{research.conference}</div>
+        </div>
       </div>
     </div>
   );

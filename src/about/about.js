@@ -6,21 +6,41 @@ const About = () => (
   <div className="about-container">
     <img src={Profile} alt="./profile1.jpg"/>
     <div className="self-description-container">
+      <div className="my-name">
+        Yunyi Zhu
+      </div>
       <p>
-        Hello, I am Yunyi! I am an undergraduate student at MIT majoring
+        Undergraduate
+        and <a href="https://www.eecs.mit.edu/academics-admissions/undergraduate-programs/6-p-meng-program">MEng</a> student at MIT majoring
         in <a href="http://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/">Computer Science and Engineering</a> and
         minoring in <a href="http://architecture.mit.edu/architecture-and-urbanism/degree/minor-design">Design</a>.
       </p>
       <p>
-        I enjoy <a href="https://github.com/yunyizhu1">programming</a>, <Link to="/art">designing</Link>, <a href="https://www.deviantart.com/meow9357">art-making</a> and <Link to="/art">prototyping</Link>.
-        I strive to lower the barrier for people to create
-        by making higher-level programming languages
-        and customizable designer tools.
+        <div className="semibold">
+          Email:
+        </div>
+        <div>yunyizhu@mit.edu</div>
       </p>
       <p>
-        I worked as a research assistant
-        in <a href="https://hcie.csail.mit.edu/">HCIE Lab</a> and <a href="https://sdg.csail.mit.edu/">Software Design Group</a> under <a href="https://www.csail.mit.edu/">MIT CSAIL</a>,
-        where I tried to apply my creative and technical skills in meaningful <Link to="/research">research</Link>.
+        <div className="semibold">
+          Research interests:
+        </div>
+        <div>Human Computer Interaction, Digital Fabrication, Input Technologies, Design Research</div>
+      </p>
+      <p>
+        <div className="semibold">Background:</div>
+        I completed
+        an <a href="http://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/">
+          SB
+        </a> in Computer Science and Engineering
+        at MIT.
+        During this time, I worked as an undergraduate research student
+        in <a href="https://hcie.csail.mit.edu/">
+        HCI Engineering Group
+      </a> and <a href="https://sdg.csail.mit.edu/">
+        Software Design Group
+      </a> at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>.
+        Currently, I am an MEng student and my academic and research advisor is Professor Stefanie Mueller.
       </p>
     </div>
   </div>

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+$titleFont: 'Lato', sans-serif;
+$textFont: 'Open Sans', sans-serif;
+$textColor: #333333;
+$lineColor: #c9c9c9;
+
+// media
+$phone: "only screen and (min-width : 480px)";
+$tablet: "screen and (min-width : 961px)";
+$laptop: "screen and (min-width : 1025px)";
+$desktop: "screen and (min-width : 1281px)";
+
+@mixin section-title() {
+  margin: 10px 0;
+  padding: 10px 20px;
+  font-family: $titleFont;
+  font-size: 24px;
+  font-weight: 500;
+  border-bottom: 1px solid lightgrey;
+}
+
