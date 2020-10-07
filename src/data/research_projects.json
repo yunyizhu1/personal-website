@@ -3,13 +3,15 @@
     "id": 1,
     "title": "MorphSensor: An Electronic Design Tool for Reforming Sensor Modules.",
     "authors": "Junyi Zhu, Yunyi Zhu, Jiaming Cui, Leon Cheng, Jackson C Snowden, Mark Chounlakone, Michael Wessely, Stefanie Mueller.",
-    "conference": "Proceedings of UIST 2020 (to appear)"
+    "conference": "Proceedings of UIST 2020 (to appear)",
+    "thumbnail": "morphsensor-thumbnail.png"
   },
   {
     "id": 2,
     "title": "CurveBoards: Integrating Breadboards into Physical Objects to Prototype Function in the Context of Form.",
     "authors": "Junyi Zhu, Lotta-Gili Blumberg, Yunyi Zhu, Martin Nisser, Ethan Levi Carlson, Xin Wen, Kevin Shum, Jessica Ayeley Quaye, Stefanie Mueller.",
-    "conference": "Proceedings of CHI 2020"
+    "conference": "Proceedings of CHI 2020",
+    "thumbnail": "curveboard-thumbnail.jpg"
   }
 
 

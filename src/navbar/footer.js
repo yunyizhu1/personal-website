@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => (
   <div className="footer">
-    <div>2019 by Yunyi Zhu</div>
+    <div>2020 by Yunyi Zhu</div>
   </div>
 );
 

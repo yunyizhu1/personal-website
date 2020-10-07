@@ -1,6 +1,12 @@
-@import './variables';
+@import 'general';
 
 nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 30px;
+
   background: gray;
   display: flex;
   align-items: flex-end;
@@ -38,12 +44,12 @@ nav {
 .footer {
   display: flex;
   padding: 20px;
-  border-top: 1px solid $lineColor;
+  background: lightgrey;
 
   div {
     font-size: 14px;
     font-family: $titleFont;
-    color: $textColor;
+    color: white;
     margin: auto;
   }
 }
