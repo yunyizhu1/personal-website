@@ -1,0 +1,27 @@
+@import './general';
+
+.awards-section {
+  margin-top: 20px;
+  color: $textColor;
+
+  .section-title {
+    @include section-title();
+  }
+
+  .awards {
+    max-width: 600px;
+    margin: 10px 20px;
+    font-family: $textFont;
+    font-size: 14px;
+
+    .award-preview {
+      margin-bottom: 14px;
+
+      .title {
+        font-weight: 600;
+      }
+
+    }
+  }
+
+}

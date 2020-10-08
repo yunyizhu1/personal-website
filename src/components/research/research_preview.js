@@ -3,7 +3,7 @@ import React from 'react';
 const Research = ({research}) => (
     <div className="publication_preview">
       <div className="thumbnail">
-        <img src={require("../data/research_thumbnails/" + research.thumbnail) } />
+        <img src={require("../../data/research_thumbnails/" + research.thumbnail) } />
       </div>
       <div className="descriptions">
         <div className="title">

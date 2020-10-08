@@ -1,6 +1,6 @@
 import React from 'react';
 import Profile from './profile2.jpeg';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const About = () => (
   <div className="about-container">
@@ -9,25 +9,25 @@ const About = () => (
       <div className="my-name">
         Yunyi Zhu
       </div>
-      <p>
+      <div className="paragraph">
         Undergraduate
         and <a href="https://www.eecs.mit.edu/academics-admissions/undergraduate-programs/6-p-meng-program">MEng</a> student at MIT majoring
         in <a href="http://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/">Computer Science and Engineering</a> and
         minoring in <a href="http://architecture.mit.edu/architecture-and-urbanism/degree/minor-design">Design</a>.
-      </p>
-      <p>
+      </div>
+      <div className="paragraph">
         <div className="semibold">
           Email:
         </div>
         <div>yunyizhu@mit.edu</div>
-      </p>
-      <p>
+      </div>
+      <div className="paragraph">
         <div className="semibold">
           Research interests:
         </div>
         <div>Human Computer Interaction, Digital Fabrication, Input Technologies, Design Research</div>
-      </p>
-      <p>
+      </div>
+      <div className="paragraph">
         <div className="semibold">Background:</div>
         I completed
         an <a href="http://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/">
@@ -41,7 +41,7 @@ const About = () => (
         Software Design Group
       </a> at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>.
         Currently, I am an MEng student and my academic and research advisor is Professor Stefanie Mueller.
-      </p>
+      </div>
     </div>
   </div>
 );
