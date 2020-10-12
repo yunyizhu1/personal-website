@@ -90,7 +90,12 @@ nav {
       }
     }
 
-
+    .github {
+      width: 20px;
+      svg g path {
+        fill: white !important;
+      }
+    }
   }
 }
 
