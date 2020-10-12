@@ -1,25 +1,46 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './styles/styles.scss';
-import Navbar from './navbar/navbar';
-import Research from './research/research';
-import About from './about/about';
-import Footer from './navbar/footer';
+import Navbar from './components/navbar/navbar';
+import Research from './components/research/research';
+import About from './components/about/about';
+import Awards from './components/awards/awards';
+import Footer from './components/navbar/footer';
 
+const App = () => {
+  const research = React.useRef(null);
+  const awards = React.useRef(null);
 
-function App() {
+  const scrollToComponent = (refName) => {
+    switch (refName) {
+      case "research":
+        research.current.scrollIntoView();
+        break;
+      case "awards":
+        awards.current.scrollIntoView();
+        break;
+      default:
+        break;
+    }
+  }
+
   return (
     <Router>
       <div className="page-container">
-          <Navbar />
-          <div className="body-part">
-            <About />
+        <Navbar scrollFunction={scrollToComponent}/>
+        <div className="body-part">
+          <About/>
+          <div ref={research}>
             <Research />
           </div>
-          <Footer />
+          <div ref={awards}>
+            <Awards />
+          </div>
+        </div>
+        <Footer/>
       </div>
     </Router>
   );
-}
+};
 
 export default App;

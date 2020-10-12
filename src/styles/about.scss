@@ -11,13 +11,17 @@
   }
 
   .self-description-container {
-
     width: 600px;
     font-family: $textFont;
     margin:30px 30px 10px 10px;
     //line-height: 27px;
     font-size: 14px;
     display: inline-block;
+
+    .paragraph {
+      margin-top: 4px;
+      margin-bottom: 10px;
+    }
 
     .semibold {
       font-weight: 600;

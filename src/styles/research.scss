@@ -19,7 +19,6 @@
         img {
           width: 200px;
         }
-
       }
 
       .descriptions {
@@ -33,6 +32,28 @@
           div {
             display: inline;
             font-style: italic;
+          }
+        }
+
+        .description {
+          margin-top: 16px;
+        }
+
+        .links {
+          margin-top: 10px;
+          a {
+            margin-right: 15px;
+            padding: 3px 10px;
+            background: darkgray;
+            border-radius: 4px;
+
+            font-family: $titleFont;
+            text-decoration: none;
+            color: white;
+
+            &:hover {
+              background: orange;
+            }
           }
         }
       }
