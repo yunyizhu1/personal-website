@@ -11,9 +11,10 @@
     "title": "CurveBoards: Integrating Breadboards into Physical Objects to Prototype Function in the Context of Form.",
     "authors": "Junyi Zhu, Lotta-Gili Blumberg, Yunyi Zhu, Martin Nisser, Ethan Levi Carlson, Xin Wen, Kevin Shum, Jessica Ayeley Quaye, Stefanie Mueller.",
     "conference": "Proceedings of CHI 2020",
-    "thumbnail": "curveboard-thumbnail.jpg"
+    "thumbnail": "curveboard-thumbnail.jpg",
+    "doi": "https://dl.acm.org/doi/abs/10.1145/3313831.3376617",
+    "pdf": "http://groups.csail.mit.edu/hcie/files/research-projects/curveboard/2020-CHI-curveboard-paper.pdf",
+    "video": "https://www.youtube.com/watch?v=erV9JR0rjGs&feature=youtu.be",
+    "projectPage": "https://hcie.csail.mit.edu/research/curveboard/curveboard.html"
   }
-
-
-
 ]

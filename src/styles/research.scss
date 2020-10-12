@@ -34,6 +34,24 @@
             font-style: italic;
           }
         }
+
+        .links {
+          margin-top: 10px;
+          a {
+            margin-right: 15px;
+            padding: 3px 10px;
+            background: darkgray;
+            border-radius: 4px;
+
+            font-family: $titleFont;
+            text-decoration: none;
+            color: white;
+
+            &:hover {
+              background: orange;
+            }
+          }
+        }
       }
     }
 }
