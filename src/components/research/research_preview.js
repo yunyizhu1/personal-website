@@ -16,6 +16,9 @@ const Research = ({research}) => (
           <div className="conference">
             in <div>{research.conference}</div>
           </div>
+          <div className="description">
+            {research.description}
+          </div>
         </div>
         <div className="links">
           {!!research.doi && <a href={research.doi} target="_blank">DOI</a>}
