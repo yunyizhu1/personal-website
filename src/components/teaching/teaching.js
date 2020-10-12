@@ -9,7 +9,7 @@ const Awards = () =>
       </div>
       <div className="teaching">
         {courses.map((course) =>
-          <div className="preview">
+          <div key={course.id} className="preview">
             <div className="title">
               { course.link ?
                 <a href={course.link} target="_blank">

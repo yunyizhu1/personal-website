@@ -9,52 +9,88 @@ nav {
 
   background: darkgrey;
   display: flex;
-  align-items: flex-end;
+  justify-content: space-between;
   font-family: $titleFont;
   padding: 10px;
 
 
-  .name-brand {
-    color: white;
-    text-decoration: none;
+  .navigation {
     display: inline;
-    font-weight: 600;
-    font-size: 20px;
-  }
-
-  a {
-    margin: 10px;
-    color: white;
-    text-decoration: none;
-  }
-
-  .menu {
-    display: inline;
-    margin: auto;
-    margin-right: 0;
-    margin-bottom: 0;
-
-    button {
-      font-family: $titleFont;
-      font-size: 16px;
+    .name-brand {
       color: white;
       text-decoration: none;
+      display: inline;
+      font-weight: 600;
+      font-size: 20px;
+    }
 
-      background: none;
-      border: none;
+    a {
+      margin: 10px;
+      color: white;
+      text-decoration: none;
+    }
 
-      &:hover, &:focus, &:visited {
+    .menu {
+      display: inline;
+      margin: auto;
+      margin-right: 0;
+      margin-bottom: 0;
+
+      button {
+        font-family: $titleFont;
+        font-size: 16px;
+        color: white;
+        text-decoration: none;
+
         background: none;
         border: none;
-        outline:none;
+
+        &:hover, &:focus, &:visited {
+          background: none;
+          border: none;
+          outline:none;
+          cursor: pointer;
+        }
+
       }
 
     }
-
   }
 
+
   .info {
-    align-self: right;
+    margin-right: 50px;
+    display: flex;
+    width: 200px;
+    height: 30px;
+    justify-content: flex-end;
+
+    div {
+      display: inline;
+      width: 20px;
+      margin: 5px 8px;
+    }
+
+    .linkedin {
+      svg path {
+        fill: white !important;
+      }
+    }
+
+    .googlescholar {
+      svg {
+        width: 28px;
+        rect {
+          fill: none !important;
+        }
+
+        path {
+          fill: white;
+        }
+      }
+    }
+
+
   }
 }
 

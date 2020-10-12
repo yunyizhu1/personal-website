@@ -19,6 +19,14 @@
 
       .title {
         font-weight: 600;
+
+        a {
+          text-decoration: none;
+          color: $textColor;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
       }
 
     }
