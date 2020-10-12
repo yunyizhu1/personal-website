@@ -30,7 +30,6 @@ const App = () => {
         <Navbar scrollFunction={scrollToComponent}/>
         <div className="body-part">
           <About/>
-          <button onClick={() => scrollToComponent("awards")}>meow</button>
           <div ref={research}>
             <Research />
           </div>

@@ -7,7 +7,8 @@ const Navbar = ( {scrollFunction} ) => {
       <div className="navigation">
         <Link to="/" className="name-brand">Yunyi Zhu</Link>
         <div className="menu">
-          <button onClick={() => scrollFunction("awards")}>Research</button>
+          <button onClick={() => scrollFunction("research")}>Publications</button>
+          <button onClick={() => scrollFunction("awards")}>Awards</button>
         </div>
       </div>
       <div className="info">
