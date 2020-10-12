@@ -1,0 +1,35 @@
+@import './general';
+
+.teaching-section {
+  margin-top: 20px;
+  color: $textColor;
+
+  .section-title {
+    @include section-title();
+  }
+
+  .teaching {
+    max-width: 600px;
+    margin: 10px 20px;
+    font-family: $textFont;
+    font-size: 14px;
+
+    .preview {
+      margin-bottom: 14px;
+
+      .title {
+        font-weight: 600;
+
+        a {
+          text-decoration: none;
+          color: $textColor;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+
+    }
+  }
+
+}
