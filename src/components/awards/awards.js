@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React from 'react';
 import awards from '../../data/awards.json';
 import AwardPreview from './award_preview';
 

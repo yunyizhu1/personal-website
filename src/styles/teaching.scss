@@ -1,6 +1,6 @@
 @import './general';
 
-.awards-section {
+.teaching-section {
   margin-top: 20px;
   color: $textColor;
 
@@ -8,13 +8,13 @@
     @include section-title();
   }
 
-  .awards {
+  .teaching {
     max-width: 600px;
     margin: 10px 20px;
     font-family: $textFont;
     font-size: 14px;
 
-    .award-preview {
+    .preview {
       margin-bottom: 14px;
 
       .title {
