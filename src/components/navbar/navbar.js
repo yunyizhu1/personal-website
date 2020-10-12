@@ -1,16 +1,13 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
-const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
-
-const Navbar = () => {
-
+const Navbar = ( {scrollFunction} ) => {
   return (
     <nav>
       <div className="navigation">
         <Link to="/" className="name-brand">Yunyi Zhu</Link>
         <div className="menu">
-          <button >Research</button>
+          <button onClick={() => scrollFunction("awards")}>Research</button>
         </div>
       </div>
       <div className="info">

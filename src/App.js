@@ -7,20 +7,41 @@ import About from './components/about/about';
 import Awards from './components/awards/awards';
 import Footer from './components/navbar/footer';
 
-function App() {
+const App = () => {
+  const research = React.useRef(null);
+  const awards = React.useRef(null);
+
+  const scrollToComponent = (refName) => {
+    switch (refName) {
+      case "research":
+        research.current.scrollIntoView();
+        break;
+      case "awards":
+        awards.current.scrollIntoView();
+        break;
+      default:
+        break;
+    }
+  }
+
   return (
     <Router>
       <div className="page-container">
-          <Navbar />
-          <div className="body-part">
-            <About />
+        <Navbar scrollFunction={scrollToComponent}/>
+        <div className="body-part">
+          <About/>
+          <button onClick={() => scrollToComponent("awards")}>meow</button>
+          <div ref={research}>
             <Research />
+          </div>
+          <div ref={awards}>
             <Awards />
           </div>
-          <Footer />
+        </div>
+        <Footer/>
       </div>
     </Router>
   );
-}
+};
 
 export default App;
