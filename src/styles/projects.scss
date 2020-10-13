@@ -1,0 +1,45 @@
+@import 'general';
+
+.project-section {
+  color: $textColor;
+  margin-top: 30px;
+
+  .section-title {
+    @include section-title();
+  }
+
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    .project-preview {
+      width: 300px;
+      margin: 20px 20px;
+      font-family: $textFont;
+      font-size: 14px;
+
+      .thumbnail {
+        img {
+          width: 300px;
+          height: 200px;
+          border-radius: 8px;
+        }
+      }
+
+      .descriptions {
+        margin-top: 6px;
+        .title {
+          font-weight: 700;
+
+          a {
+            @include link();
+          }
+
+        }
+
+        .description {
+          margin-top: 6px;
+        }
+      }
+    }
+  }
+}

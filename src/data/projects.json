@@ -1,0 +1,54 @@
+[
+  {
+    "id": 10,
+    "title": "Déjà Vu: Assemble Web Apps from Modules",
+    "link": "https://deja-vu-platform.com/",
+    "thumbnail": "dejavu.png",
+    "description": "Déjà Vu is a free and open-source platform for building web apps. It features a catalog of full-stack functionality and an HTML-like language for assembling web apps using the catalog. With Déjà Vu you can build complex apps fast, without writing any client- or server-side procedural code."
+  },
+  {
+    "id": 9,
+    "title": "CLEVR: Collaborative Learning Environments in Virtual Reality",
+    "link": "https://education.mit.edu/project/clevr/",
+    "thumbnail": "clevr.png",
+    "description": "CLEVR aims to create a feasible immersive learning experience. In this project, our team of six developed a VR Game called CellVerse to help teams of high school students learn cell biology."
+  },
+  {
+    "id": 8,
+    "title": "Soft Textiles from 3D Printed Rigid Materials",
+    "thumbnail": "3dprint-textile.jpg",
+    "description": "I designed interlocking structures that turns rigid 3D printed materials into soft textiles. I demonstrated my design by creating a vest with soft, 3D-printed decorations."
+  },
+  {
+    "id": 7,
+    "title": "Leiserchess: Competitive Chessbot AI",
+    "thumbnail": "leiserchess.png",
+    "link": "https://docs.google.com/document/d/1bUqoJQ5WjnXMwqh_dTgMXdsgpkBI_izpfkeqbCwRIT8/edit?usp=sharing",
+    "description": "Final project of 6.172: Performance Engineering of Software Systems. In this project, our team of four implemented the fastest chessbot AI in class, which uses open book, bitmaps, alpha-beta pruning and various other performance engineering techniques."
+  },
+  {
+    "id": 6,
+    "title": "Weather App that Uses Texts as Form",
+    "thumbnail": "text-weather.png",
+    "link": "http://web.mit.edu/yunyizhu/www/text-weather/",
+    "description": "A weather app that uses the form (shape and interaction) of texts to convey the feeling of the weather. Implemented using p5.js (processing)."
+  },
+  {
+    "id": 5,
+    "title": "Catology: a Yellow Page of Cat Species",
+    "thumbnail": "catology.png",
+    "link": "http://web.mit.edu/yunyizhu/www/catology/",
+    "description": "A webpage for cat lovers users to search, filter and learn more about different cat species. Implemented using p5.js (processing)."
+  },
+  {
+    "id": 4,
+    "title": "LoneStar: an Environmental Balance Game",
+    "thumbnail": "lonestar.png",
+    "link": "http://web.mit.edu/yunyizhu/www/lonestar/",
+    "description": "Final project of 6.073: Game Development. The player needs to survive on a planet while balancing among power, food and the emission of carbon dioxide."
+  }
+
+
+
+
+]
