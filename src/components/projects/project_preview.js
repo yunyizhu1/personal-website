@@ -8,7 +8,15 @@ const Research = ({project}) => (
     <div className="descriptions">
       <div>
         <div className="title">
-          {project.title}
+          {
+            project.link  ?
+              <a href={project.link} target="_blank">
+                {project.title}
+              </a> :
+              <div>
+                {project.title}
+              </div>
+          }
         </div>
         <div className="description">
           {project.description}

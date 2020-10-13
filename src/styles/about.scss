@@ -34,9 +34,7 @@
     }
 
     a {
-      color: $textColor;
-      text-decoration: none;
-      border-bottom: 1px solid $lineColor;
+      @include link();
     }
   }
 }
