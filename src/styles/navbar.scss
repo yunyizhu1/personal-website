@@ -36,7 +36,7 @@ nav {
       margin-right: 0;
       margin-bottom: 0;
 
-      button {
+      button, a {
         font-family: $titleFont;
         font-size: 16px;
         color: white;
@@ -50,6 +50,10 @@ nav {
           border: none;
           outline:none;
           cursor: pointer;
+        }
+
+        &:hover {
+          color: lightgrey;
         }
 
       }

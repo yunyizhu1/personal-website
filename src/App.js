@@ -11,6 +11,7 @@ import Projects from './components/projects/project';
 
 const App = () => {
   const research = React.useRef(null);
+  const projects = React.useRef(null);
   const awards = React.useRef(null);
 
   const scrollToComponent = (refName) => {
@@ -20,6 +21,9 @@ const App = () => {
         break;
       case "awards":
         awards.current.scrollIntoView();
+        break;
+      case "projects":
+        projects.current.scrollIntoView();
         break;
       default:
         break;
@@ -35,7 +39,7 @@ const App = () => {
           <div ref={research}>
             <Research />
           </div>
-          <div>
+          <div ref={projects}>
             <Projects />
           </div>
           <div ref={awards}>
