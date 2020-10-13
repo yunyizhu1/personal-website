@@ -7,6 +7,7 @@ import About from './components/about/about';
 import Awards from './components/awards/awards';
 import Footer from './components/navbar/footer';
 import Teaching from './components/teaching/teaching';
+import Projects from './components/projects/project';
 
 const App = () => {
   const research = React.useRef(null);
@@ -33,6 +34,9 @@ const App = () => {
           <About/>
           <div ref={research}>
             <Research />
+          </div>
+          <div>
+            <Projects />
           </div>
           <div ref={awards}>
             <Awards />

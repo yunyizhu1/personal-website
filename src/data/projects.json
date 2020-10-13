@@ -24,7 +24,7 @@
     "title": "Leiserchess: Competitive Chessbot AI",
     "thumbnail": "leiserchess.png",
     "link": "https://docs.google.com/document/d/1bUqoJQ5WjnXMwqh_dTgMXdsgpkBI_izpfkeqbCwRIT8/edit?usp=sharing",
-    "description": "Final project of 6.172: Performance Engineering of Software Systems. In this project, our team of four implemented the fastest chessbot AI in class, which uses open book, bitmaps, ab-pruning and various other techniques."
+    "description": "Final project of 6.172: Performance Engineering of Software Systems. In this project, our team of four implemented the fastest chessbot AI in class, which uses open book, bitmaps, alpha-beta pruning and various other performance engineering techniques."
   },
   {
     "id": 6,
