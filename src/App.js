@@ -39,15 +39,16 @@ const App = () => {
           <div ref={research}>
             <Research />
           </div>
-          <div ref={projects}>
-            <Projects />
-          </div>
           <div ref={awards}>
             <Awards />
           </div>
           <div>
             <Teaching />
           </div>
+          <div ref={projects}>
+            <Projects />
+          </div>
+
         </div>
         <Footer/>
       </div>

@@ -5,7 +5,7 @@ import ResearchPreview from './research_preview.js';
 const Research = () => (
   <div className="research-section">
     <div className="section-title">
-      Publications
+      Publications (full papers at CHI and UIST)
     </div>
     <div>
       {researchProjects.map((research) =>
