@@ -1,0 +1,16 @@
+.conference-attendance {
+  max-width: 600px;
+  margin: 10px 20px;
+  font-family: $textFont;
+  font-size: 14px;
+
+  div {
+    a {
+      text-decoration: none;
+      color: $textColor;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

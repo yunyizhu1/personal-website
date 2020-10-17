@@ -11,8 +11,8 @@ const Navbar = ( {scrollFunction} ) => {
         <Link to="/" onClick={() => window.location.reload()} className="name-brand">Yunyi Zhu</Link>
         <div className="menu">
           <button onClick={() => scrollFunction("research")}>Publications</button>
-          <button onClick={() => scrollFunction("projects")}>Projects</button>
           <button onClick={() => scrollFunction("awards")}>Awards</button>
+          <button onClick={() => scrollFunction("projects")}>Projects</button>
           <Link to="yunyizhu-cv.pdf" target="_blank">CV</Link>
         </div>
       </div>
