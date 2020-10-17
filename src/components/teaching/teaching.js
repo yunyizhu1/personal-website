@@ -1,7 +1,7 @@
 import React from 'react';
 import courses from '../../data/teaching.json';
 
-const Awards = () =>
+const Teaching = () =>
   (
     <div className="teaching-section">
       <div className="section-title">
@@ -21,7 +21,17 @@ const Awards = () =>
               }
             </div>
             <div className="descriptions">
-              {course.term}
+              <div>
+                {course.term}
+              </div>
+              <ul>
+                {course.details.map((job)=> (
+                  <li>
+                    {job}
+                  </li>
+                ))}
+              </ul>
+
             </div>
           </div>
         )}
@@ -30,4 +40,4 @@ const Awards = () =>
   );
 
 
-export default Awards;
+export default Teaching;

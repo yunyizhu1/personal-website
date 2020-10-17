@@ -44,10 +44,10 @@ const App = () => {
             <Awards />
           </div>
           <div>
-            <Teaching />
+            <ConferenceAttendance />
           </div>
           <div>
-            <ConferenceAttendance />
+            <Teaching />
           </div>
           <div ref={projects}>
             <Projects />
