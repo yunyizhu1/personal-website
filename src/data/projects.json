@@ -1,6 +1,7 @@
 [
   {
     "id": 10,
+    "category": "research",
     "title": "Déjà Vu: Assemble Web Apps from Modules",
     "link": "https://deja-vu-platform.com/",
     "thumbnail": "dejavu.png",
@@ -8,6 +9,7 @@
   },
   {
     "id": 9,
+    "category": "research",
     "title": "CLEVR: Collaborative Learning Environments in Virtual Reality",
     "link": "https://education.mit.edu/project/clevr/",
     "thumbnail": "clevr.png",
@@ -15,12 +17,14 @@
   },
   {
     "id": 8,
+    "category": "fab",
     "title": "Soft Textiles from 3D Printed Rigid Materials",
     "thumbnail": "3dprint-textile.jpg",
     "description": "I designed interlocking structures that turns rigid 3D printed materials into soft textiles. I demonstrated my design by creating a vest with soft, 3D-printed decorations."
   },
   {
     "id": 7,
+    "category": "other",
     "title": "Leiserchess: Competitive Chessbot AI",
     "thumbnail": "leiserchess.png",
     "link": "https://docs.google.com/document/d/1bUqoJQ5WjnXMwqh_dTgMXdsgpkBI_izpfkeqbCwRIT8/edit?usp=sharing",
@@ -28,6 +32,7 @@
   },
   {
     "id": 6,
+    "category": "other",
     "title": "Weather App that Uses Texts as Form",
     "thumbnail": "text-weather.png",
     "link": "http://web.mit.edu/yunyizhu/www/text-weather/",
@@ -35,6 +40,7 @@
   },
   {
     "id": 5,
+    "category": "other",
     "title": "Catology: a Yellow Page of Cat Species",
     "thumbnail": "catology.png",
     "link": "http://web.mit.edu/yunyizhu/www/catology/",
@@ -42,10 +48,18 @@
   },
   {
     "id": 4,
+    "category": "other",
     "title": "LoneStar: an Environmental Balance Game",
     "thumbnail": "lonestar.png",
     "link": "http://web.mit.edu/yunyizhu/www/lonestar/",
     "description": "Final project of 6.073: Game Development. The player needs to survive on a planet while balancing among power, food and the emission of carbon dioxide."
+  },
+  {
+    "id": 3,
+    "category": "fab",
+    "title": "The Mosaic Stool",
+    "thumbnail": "mosaic-stool.jpg",
+    "description": "The mosaic stool is a features a soft, wooden surface that is both comfortable and aesthetically pleasing."
   }
 
 

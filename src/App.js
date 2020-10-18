@@ -52,7 +52,6 @@ const App = () => {
           <div ref={projects}>
             <Projects />
           </div>
-
         </div>
         <Footer/>
       </div>
