@@ -34,7 +34,7 @@ const About = () => (
           </a>
         </div>
         <div>
-          <a href="https://http://people.csail.mit.edu/dnj/" target="_blank">
+          <a href="https://people.csail.mit.edu/dnj/" target="_blank">
             Prof. Daniel Jackson
           </a>
         </div>
