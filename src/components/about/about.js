@@ -10,10 +10,13 @@ const About = () => (
         Yunyi Zhu
       </div>
       <div className="paragraph">
-        Undergraduate
-        and <a href="https://www.eecs.mit.edu/academics-admissions/undergraduate-programs/6-p-meng-program">MEng</a> student at MIT majoring
-        in <a href="http://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/">Computer Science and Engineering</a> and
-        minoring in <a href="http://architecture.mit.edu/architecture-and-urbanism/degree/minor-design">Design</a>.
+        MIT Master's student
+        <div>
+          <a href="http://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/" target="_blank">Computer Science and Engineering</a>
+        </div>
+        <div>
+          minor in <a href="http://architecture.mit.edu/architecture-and-urbanism/degree/minor-design" target="_blank">Design</a>
+        </div>
       </div>
       <div className="paragraph">
         <div className="semibold">
@@ -23,24 +26,38 @@ const About = () => (
       </div>
       <div className="paragraph">
         <div className="semibold">
+          Prior Supervisors:
+        </div>
+        <div>
+          <a href="https://hcie.csail.mit.edu/stefanie-mueller.html" target="_blank">
+            Prof. Stefanie Mueller
+          </a>
+        </div>
+        <div>
+          <a href="https://http://people.csail.mit.edu/dnj/" target="_blank">
+            Prof. Daniel Jackson
+          </a>
+        </div>
+      </div>
+      <div className="paragraph">
+        <div className="semibold">
           Research interests:
         </div>
-        <div>Human Computer Interaction, Digital Fabrication, Input Technologies, Design Research</div>
+        <div>Human Computer Interaction</div>
+        <div>My current projects focus on digital fabrication. I am broadly interested in
+          computational materials and wearable devices.
+          I am also open to explore other research areas in HCI.
+        </div>
       </div>
       <div className="paragraph">
         <div className="semibold">Background:</div>
-        I completed
-        an <a href="http://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/">
-          SB
-        </a> in Computer Science and Engineering
-        at MIT.
-        During this time, I worked as an undergraduate research student
-        in <a href="https://hcie.csail.mit.edu/">
-        HCI Engineering Group
-      </a> and <a href="https://sdg.csail.mit.edu/">
-        Software Design Group
-      </a> at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>.
-        Currently, I am an MEng student and my academic and research advisor is Professor Stefanie Mueller.
+        I have been involved in HCI research since 2018. I have worked as an undergraduate research assistant
+        with <a href="https://hcie.csail.mit.edu/stefanie-mueller.html" target="_blank">
+        Prof. Stefanie Mueller
+      </a> and <a href="https://http://people.csail.mit.edu/dnj/" target="_blank">
+        Prof. Daniel Jackson
+      </a> at <a href="https://www.csail.mit.edu/" target="_blank">MIT CSAIL</a>.
+        I won the <a href="https://www.eecs.mit.edu/news-events/announcements/best-best-superurop-2018-2019-award-winners" target="_blank">MIT EECS best undergraduate research award</a> in 2019.
       </div>
     </div>
   </div>

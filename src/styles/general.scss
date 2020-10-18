@@ -13,6 +13,7 @@ $tablet: "screen and (min-width : 961px)";
 $laptop: "screen and (min-width : 1025px)";
 $desktop: "screen and (min-width : 1281px)";
 
+
 @mixin section-title() {
   margin: 10px 0;
   padding: 10px 20px;
@@ -20,6 +21,11 @@ $desktop: "screen and (min-width : 1281px)";
   font-size: 24px;
   font-weight: 500;
   border-bottom: 1px solid lightgrey;
+  color: $textColor;
+}
+
+.section-title {
+  @include section-title();
 }
 
 @mixin link() {

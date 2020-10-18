@@ -8,6 +8,7 @@ import Awards from './components/awards/awards';
 import Footer from './components/navbar/footer';
 import Teaching from './components/teaching/teaching';
 import Projects from './components/projects/project';
+import ConferenceAttendance from './components/conference/conference-attendance';
 
 const App = () => {
   const research = React.useRef(null);
@@ -39,14 +40,17 @@ const App = () => {
           <div ref={research}>
             <Research />
           </div>
-          <div ref={projects}>
-            <Projects />
-          </div>
           <div ref={awards}>
             <Awards />
           </div>
           <div>
+            <ConferenceAttendance />
+          </div>
+          <div>
             <Teaching />
+          </div>
+          <div ref={projects}>
+            <Projects />
           </div>
         </div>
         <Footer/>
