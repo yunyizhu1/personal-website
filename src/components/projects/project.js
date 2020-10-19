@@ -5,7 +5,7 @@ import ProjectPreview from './project_preview.js';
 const Research = () => (
   <div className="project-section">
     <div className="section-title">
-      Other Fabrication Related Projects
+      Projects Related to Fabrication and Design
     </div>
     <div className="project-list">
       {
@@ -29,7 +29,7 @@ const Research = () => (
       }
     </div>
     <div className="section-title">
-      Other Skills
+      Other Projects
     </div>
     <div className="project-list">
       {

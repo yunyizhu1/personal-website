@@ -5,7 +5,7 @@
     "title": "Déjà Vu: Assemble Web Apps from Modules",
     "link": "https://deja-vu-platform.com/",
     "thumbnail": "dejavu.png",
-    "description": "Déjà Vu is a free and open-source platform for building web apps. It features a catalog of full-stack functionality and an HTML-like language for assembling web apps using the catalog. With Déjà Vu you can build complex apps fast, without writing any client- or server-side procedural code."
+    "description": "Research project directed by <a href='https://people.csail.mit.edu/dnj/' target='_blank'>Prof. Daniel Jackson</a> and <a href='https://spderosso.github.io/' target='_blank'>Dr. Santiago Perez De Rosso</a>. Originally published in <a href='https://groups.csail.mit.edu/sdg/pubs/2019/onward19.pdf' target='_blank'>SPLASH'19</a>, Déjà Vu has become an open-source platform for building web apps. It features a catalog of full-stack functionality and an HTML-like language for assembling web apps using the catalog."
   },
   {
     "id": 9,
@@ -13,27 +13,39 @@
     "title": "CLEVR: Collaborative Learning Environments in Virtual Reality",
     "link": "https://education.mit.edu/project/clevr/",
     "thumbnail": "clevr.png",
-    "description": "CLEVR aims to create a feasible immersive learning experience. In this project, our team of six developed a VR Game called CellVerse to help teams of high school students learn cell biology."
+    "description": "Research project directed by <a href='https://education.mit.edu/' target='_blank'>MIT Education Arcade</a> and <a href='http://gamelab.mit.edu/' target='_blank'>MIT Game Lab</a>. CLEVR creates a feasible immersive learning experience through virtual reality. In this project, our team of six developed a VR Game called CellVerse to help teams of high school students learn cell biology."
   },
   {
     "id": 8,
     "category": "fab",
     "title": "Soft Textiles from 3D Printed Rigid Materials",
+    "skill": "3D Printing, CAD",
     "thumbnail": "3dprint-textile.jpg",
-    "description": "I designed interlocking structures that turns rigid 3D printed materials into soft textiles. I demonstrated my design by creating a vest with soft, 3D-printed decorations."
+    "description": "I designed and 3D printed the interlocking structure that turns rigid materials into soft textiles. I demonstrated its strechability by stitching it onto a piece of clothing."
   },
   {
     "id": 7,
     "category": "other",
-    "title": "Leiserchess: Competitive Chessbot AI",
+    "title": "Leiserchess: Chessbot Performence Competition (Ranked 1st in class)",
+    "skill": "Performance Engineering, AI Development",
     "thumbnail": "leiserchess.png",
     "link": "https://docs.google.com/document/d/1bUqoJQ5WjnXMwqh_dTgMXdsgpkBI_izpfkeqbCwRIT8/edit?usp=sharing",
-    "description": "Final project of 6.172: Performance Engineering of Software Systems. In this project, our team of four implemented the fastest chessbot AI in class, which uses open book, bitmaps, alpha-beta pruning and various other performance engineering techniques."
+    "description": "Final project of 6.172: Performance Engineering of Software Systems. In this project, our team of four implemented the fastest chessbot AI in class, which uses open book, bitmaps, alpha-beta pruning and various other performance engineering techniques. Implemented in C."
+  },
+  {
+    "id": 65,
+    "category": "other",
+    "title": "ShaperSketch: Using Shape Grammar to Sketch",
+    "skill": "Shape Grammar",
+    "thumbnail": "shaper-sketch.png",
+    "link": "http://web.mit.edu/yunyizhu/www/shaperSketch/",
+    "description": "A tool for entry level users to create sketch using 2D shape grammar."
   },
   {
     "id": 6,
     "category": "other",
     "title": "Weather App that Uses Texts as Form",
+    "skill": "Interaction Design",
     "thumbnail": "text-weather.png",
     "link": "http://web.mit.edu/yunyizhu/www/text-weather/",
     "description": "A weather app that uses the form (shape and interaction) of texts to convey the feeling of the weather. Implemented using p5.js (processing)."
@@ -41,7 +53,8 @@
   {
     "id": 5,
     "category": "other",
-    "title": "Catology: a Yellow Page of Cat Species",
+    "title": "Catology: a Directory for Cat Species",
+    "skill": "Interaction Design",
     "thumbnail": "catology.png",
     "link": "http://web.mit.edu/yunyizhu/www/catology/",
     "description": "A webpage for cat lovers users to search, filter and learn more about different cat species. Implemented using p5.js (processing)."
@@ -50,19 +63,41 @@
     "id": 4,
     "category": "other",
     "title": "LoneStar: an Environmental Balance Game",
+    "skill": "Game Development",
     "thumbnail": "lonestar.png",
     "link": "http://web.mit.edu/yunyizhu/www/lonestar/",
     "description": "Final project of 6.073: Game Development. The player needs to survive on a planet while balancing among power, food and the emission of carbon dioxide."
   },
   {
+    "id": 2,
+    "category": "fab",
+    "title": "The Temperature Sensing Vest",
+    "thumbnail": "enlightenment-vest-2.jpg",
+    "skill": "Electronics (Arduino)",
+    "description": "This vest lights up when it is being worn and changes the color of its light depending on its surrounding temperature."
+  },
+  {
     "id": 3,
     "category": "fab",
+    "skill": "Woodworking",
     "title": "The Mosaic Stool",
     "thumbnail": "mosaic-stool.jpg",
-    "description": "The mosaic stool is a features a soft, wooden surface that is both comfortable and aesthetically pleasing."
+    "description": "The mosaic stool features its soft and wooden seat surface. In this project, I used a straw rope to connect small wooden blocks to create a soft surface out of rigid materials."
+  },
+  {
+    "id": 35,
+    "category": "fab",
+    "title": "Bus Stop near Stata Center",
+    "skill": "Rendering, Architecture Design",
+    "thumbnail": "bus-stop.png",
+    "description": "In this project, I designed, modeled and rendered a bus stop shelter. It features its glass walls and the convex lenses in the shelter ceiling, which gather sun light for the people waiting for the bus on a cold Boston day."
+  },
+  {
+    "id": 8,
+    "category": "fab",
+    "title": "Shape Grammar Origami",
+    "skill": "Paper Folding, Shape Grammar",
+    "thumbnail": "shape-grammar-origami.jpg",
+    "description": "I designed and folded a 3D unit structure that derives into different interesting geometries when repeating with different shape grammar rules."
   }
-
-
-
-
 ]

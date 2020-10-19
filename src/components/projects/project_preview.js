@@ -7,6 +7,7 @@ const Research = ({project}) => (
     </div>
     <div className="descriptions">
       <div>
+
         <div className="title">
           {
             project.link  ?
@@ -18,8 +19,17 @@ const Research = ({project}) => (
               </div>
           }
         </div>
+        <div className="skill">
+          {
+            (project.category==="other" || project.category === "fab")
+              &&
+            <div>
+              &bull; {project.skill}
+            </div>
+          }
+        </div>
         <div className="description">
-          {project.description}
+          <div dangerouslySetInnerHTML={ { __html: project.description } }></div>
         </div>
       </div>
     </div>
