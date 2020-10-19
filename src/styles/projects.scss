@@ -27,17 +27,22 @@
 
       .descriptions {
         margin-top: 6px;
+        a {
+          @include link();
+        }
+
+        .skill {
+          font-weight: 300;
+          font-style: italic;
+          margin-bottom: 3px;
+        }
+
         .title {
           font-weight: 700;
-
-          a {
-            @include link();
-          }
-
+          margin-bottom: 6px;
         }
 
         .description {
-          margin-top: 6px;
         }
       }
     }
