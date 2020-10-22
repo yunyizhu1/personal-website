@@ -3,9 +3,13 @@
     "id": 1,
     "title": "MorphSensor: An Electronic Design Tool for Reforming Sensor Modules.",
     "authors": "Junyi Zhu, Yunyi Zhu, Jiaming Cui, Leon Cheng, Jackson C Snowden, Mark Chounlakone, Michael Wessely, Stefanie Mueller.",
-    "conference": "Proceedings of UIST 2020 (to appear)",
+    "conference": "Proceedings of UIST 2020",
     "thumbnail": "morphsensor-thumbnail.png",
-    "description": "We present a system that allows users to break down sensor modules into components and rearrange the pieces according to product's geometry, which better integrate with the three-dimensional shape of a physical prototype. I implemented the MorphSensor 3D editor, which supports interactive electronics component placement, wire generation and wire svg output."
+    "description": "We present a system that allows users to break down sensor modules into components and rearrange the pieces according to product's geometry, which better integrate with the three-dimensional shape of a physical prototype. I implemented the MorphSensor 3D editor, which supports interactive electronics component placement, wire generation and wire svg output.",
+    "doi": "https://dl.acm.org/doi/10.1145/3379337.3415898",
+    "pdf": "http://groups.csail.mit.edu/hcie/files/research-projects/morphsensor/2020-UIST-morphsensor-paper.pdf",
+    "video": "https://www.youtube.com/watch?v=d5o3LI0rL7A&feature=youtu.be",
+    "projectPage": "https://hcie.csail.mit.edu/research/morphsensor/morphsensor.html"
   },
   {
     "id": 2,
